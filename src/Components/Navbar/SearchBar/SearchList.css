@@ -1,0 +1,46 @@
+/* .ContainerSearchList{
+    background-color: white;
+    width: 90.74%;
+    position: absolute;
+    top: 2.7rem;
+    height: fit-content;
+    z-index: 91;
+}
+.titleItem{
+    margin: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.titleItem:hover{
+    background-color: rgba(166, 202, 234, 0.512);
+} */
+
+/* Container for the search list */
+.ContainerSearchList {
+    background-color: white;
+    width: 90.74%;
+    position: absolute;
+    top: 3rem; /* Adjusted top position for better alignment */
+    height: auto; /* Use auto for height to fit content */
+    z-index: 91;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 0.5rem 0; /* Add padding for better spacing */
+    overflow-y: auto; /* Add scrollbar when content exceeds height */
+}
+
+/* Styles for the title items in the search list */
+.titleItem {
+    margin: 0;
+    padding: 1rem; /* Increased padding for better spacing */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    font-size: 1rem; /* Adjust font size */
+    color: #333; /* Adjust text color */
+}
+
+/* Hover effect for the title items */
+.titleItem:hover {
+    background-color: rgba(166, 202, 234, 0.8); /* Adjusted background color with opacity */
+    color: #fff; /* Adjust text color on hover */
+}

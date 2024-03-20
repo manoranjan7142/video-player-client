@@ -1,0 +1,131 @@
+/* .video_ShowVideo{
+    cursor: pointer;
+    margin: 0.4rem;
+    margin-bottom: 0;
+    width: calc(100% - 0.8rem);
+    height: 70%;
+    border: 1px solid rgba(67, 229, 18, 0.532);
+}
+.video_description{
+    display: flex;
+    height: 4rem;
+    margin: auto auto;
+}
+.video_details{
+    width: 80%;
+    color: aliceblue;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    height: fit-content;
+}
+.title_vid_ShowVideo{
+    margin: 0;
+    font-size: large;
+    font-weight: bolder;
+    color: antiquewhite;
+    display: flex;
+    text-align: clip;
+}
+.vid_views_UploadTime{
+    font-size: medium;
+    color: rgba(250,235,215,0.555);
+    margin: 0.2rem;
+    display: flex;
+} */
+
+/* copy form App.css */
+ /* video {
+    background-color: rgba(59, 59, 59, 0.662);
+  }
+  .dot{
+    height: 2px;
+    width: 2px;
+    background-color: white;
+    margin: auto 0.5rem; 
+  } */
+
+  /* Video styles */
+.video_ShowVideo {
+    cursor: pointer;
+    margin: 0.4rem;
+    margin-bottom: 0;
+    width: calc(100% - 0.8rem);
+    height: 70%;
+    border: 1px solid #0df095;
+    border-radius: 20px; 
+    transition: border-color 0.3s; 
+}
+
+.video_ShowVideo:hover {
+    border-color: rgba(1, 251, 255, 0.8); 
+}
+
+
+.video_description {
+    display: flex;
+    height: 4rem;
+    margin: auto auto;
+    align-items: center; 
+}
+
+.video_details {
+    width: 80%;
+    color: aliceblue;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    height: fit-content;
+}
+
+.title_vid_ShowVideo {
+    margin: 0;
+    font-size: large;
+    font-weight: bolder;
+    color: antiquewhite;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.vid_views_UploadTime {
+    font-size: medium;
+    color: rgba(250, 235, 215, 0.555);
+    margin: 0.2rem;
+    display: flex;
+    align-items: center; 
+}
+
+
+.dot {
+    height: 2px;
+    width: 2px;
+    background-color: white;
+    margin: auto 0.5rem;
+    border-radius: 50%; 
+}
+
+
+/* .video_container {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.video_container:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+.video_container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.video {
+   
+    border-radius: 10px;
+} */
+
